@@ -8,15 +8,16 @@
 
 #import "ViewController.h"
 #import "CreatField.h"
-#import "Liner.h"
-#import "Quadratic.h"
-
 
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *textX;
 @property (weak, nonatomic) IBOutlet UITextField *textY;
 @property (weak, nonatomic) IBOutlet UITextField *textE;
+
+@property (weak, nonatomic) IBOutlet UITextField *textA;
+@property (weak, nonatomic) IBOutlet UITextField *textB;
+@property (weak, nonatomic) IBOutlet UITextField *textC;
 
 @end
 
@@ -37,17 +38,21 @@
     CreatField *field = [[CreatField alloc] init];
     field.frame = CGRectMake(50, 50, 500, 500);
     field.backgroundColor = [UIColor cyanColor];
-    [self.view addSubview:field];
+    
     int x,y,e;
+    double a,b,c;
     x = (int)[self.textX.text integerValue];
     y = (int)[self.textY.text integerValue];
     e = (int)[self.textE.text integerValue];
     
-    Liner *line = [[Liner alloc]init];
-    [line setPoint:x :1];
-    [line setPoint:y :2];
-    [line setPoint:e :3];
-    
+    a = (double)[self.textA.text doubleValue];
+    b = (double)[self.textB.text doubleValue];
+    c = (double)[self.textC.text doubleValue];
+
+    [field setPoint:x :y :e :1];
+    [field setPoint:a :b :c :2];
+  
+    [self.view addSubview:field];
     //    NSLog(@"%d",x);
     //    NSLog(@"%d",y);
     //    NSLog(@"%d",e);

@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CreatField : UIView
+@interface CreatField : UIView{
+    int X,Y,E;
+    double A,B,C;
+}
+
+
+
+- (void) setPoint:(double)value1 :(double)value2 :(double)value3 :(int)choose;
+
 
 @end
