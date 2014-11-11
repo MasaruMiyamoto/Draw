@@ -95,13 +95,9 @@
             A = value;
             
             break;
-            
         case 5:
-            
             B = value;
-            
             break;
-            
         case 6:
             C = value;
             break;

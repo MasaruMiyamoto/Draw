@@ -8,9 +8,7 @@
     int A,B,C;
 }
 
-
 -(void) setPoint:(int)value :(int)choose;
-
 
 @end
 

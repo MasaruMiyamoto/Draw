@@ -15,6 +15,7 @@
 		789FD9381A11D0F700B71F96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 789FD9361A11D0F700B71F96 /* LaunchScreen.xib */; };
 		789FD9441A11D0F700B71F96 /* DrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 789FD9431A11D0F700B71F96 /* DrawTests.m */; };
 		789FD94F1A11D14800B71F96 /* Liner.m in Sources */ = {isa = PBXBuildFile; fileRef = 789FD94E1A11D14800B71F96 /* Liner.m */; };
+		789FD9521A11D24800B71F96 /* Quadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = 789FD9511A11D24800B71F96 /* Quadratic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		789FD9431A11D0F700B71F96 /* DrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawTests.m; sourceTree = "<group>"; };
 		789FD94D1A11D14800B71F96 /* Liner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Liner.h; sourceTree = "<group>"; };
 		789FD94E1A11D14800B71F96 /* Liner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Liner.m; sourceTree = "<group>"; };
+		789FD9501A11D24800B71F96 /* Quadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quadratic.h; sourceTree = "<group>"; };
+		789FD9511A11D24800B71F96 /* Quadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quadratic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				789FD92F1A11D0F700B71F96 /* ViewController.m */,
 				789FD94D1A11D14800B71F96 /* Liner.h */,
 				789FD94E1A11D14800B71F96 /* Liner.m */,
+				789FD9501A11D24800B71F96 /* Quadratic.h */,
+				789FD9511A11D24800B71F96 /* Quadratic.m */,
 				789FD9311A11D0F700B71F96 /* Main.storyboard */,
 				789FD9341A11D0F700B71F96 /* Images.xcassets */,
 				789FD9361A11D0F700B71F96 /* LaunchScreen.xib */,
@@ -227,6 +232,7 @@
 				789FD94F1A11D14800B71F96 /* Liner.m in Sources */,
 				789FD9301A11D0F700B71F96 /* ViewController.m in Sources */,
 				789FD92D1A11D0F700B71F96 /* AppDelegate.m in Sources */,
+				789FD9521A11D24800B71F96 /* Quadratic.m in Sources */,
 				789FD92A1A11D0F700B71F96 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
