@@ -62,12 +62,18 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZo-oK-Yzy">
                                 <rect key="frame" x="448" y="280" width="80" height="50"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="XBe-wn-dgW"/>
                                     <constraint firstAttribute="width" constant="80" id="fGB-EP-Bu7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="OK">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="fGB-EP-Bu7"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kkd-a5-HFl"/>
                                 </connections>
@@ -78,16 +84,24 @@
                             <constraint firstItem="69p-Kf-Tm3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="93" id="2v4-aK-ez6"/>
                             <constraint firstItem="p7v-nR-QQH" firstAttribute="leading" secondItem="69p-Kf-Tm3" secondAttribute="trailing" constant="8" id="5fW-X0-YXW"/>
                             <constraint firstItem="yZo-oK-Yzy" firstAttribute="top" secondItem="fdI-wS-sW3" secondAttribute="bottom" constant="137" id="5sM-Lh-qFA"/>
+                            <constraint firstItem="yZo-oK-Yzy" firstAttribute="top" secondItem="fdI-wS-sW3" secondAttribute="bottom" constant="137" id="9iQ-9i-UgG"/>
                             <constraint firstItem="Ydn-MD-4rE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="97" id="Jm9-Yp-vaV"/>
                             <constraint firstItem="zM2-Ae-VAF" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="KVA-gM-KE2"/>
                             <constraint firstItem="Ydn-MD-4rE" firstAttribute="leading" secondItem="fdI-wS-sW3" secondAttribute="trailing" constant="8" id="Lz6-6g-K5q"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yZo-oK-Yzy" secondAttribute="trailing" constant="56" id="Qpg-ta-xBK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yZo-oK-Yzy" secondAttribute="trailing" constant="56" id="WN3-Ta-jAS"/>
                             <constraint firstItem="zM2-Ae-VAF" firstAttribute="leading" secondItem="Ydn-MD-4rE" secondAttribute="trailing" constant="8" id="eel-Sg-LqF"/>
                             <constraint firstItem="fdI-wS-sW3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="93" id="f43-oP-H2K"/>
                             <constraint firstItem="p7v-nR-QQH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="97" id="mcz-H0-cy2"/>
                             <constraint firstItem="zM2-Ae-VAF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="93" id="tCe-yo-7Ev"/>
                             <constraint firstItem="fdI-wS-sW3" firstAttribute="leading" secondItem="p7v-nR-QQH" secondAttribute="trailing" constant="8" id="usq-JS-ZfP"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5sM-Lh-qFA"/>
+                                <exclude reference="Qpg-ta-xBK"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="textE" destination="zM2-Ae-VAF" id="UXa-vt-HhN"/>
