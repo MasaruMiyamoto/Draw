@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44AE59D91A11D442006A72EE /* CreatField.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AE59D81A11D442006A72EE /* CreatField.m */; };
 		789FD92A1A11D0F700B71F96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 789FD9291A11D0F700B71F96 /* main.m */; };
 		789FD92D1A11D0F700B71F96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 789FD92C1A11D0F700B71F96 /* AppDelegate.m */; };
 		789FD9301A11D0F700B71F96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789FD92F1A11D0F700B71F96 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44AE59D71A11D442006A72EE /* CreatField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatField.h; sourceTree = "<group>"; };
+		44AE59D81A11D442006A72EE /* CreatField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatField.m; sourceTree = "<group>"; };
 		789FD9241A11D0F700B71F96 /* Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789FD9281A11D0F700B71F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		789FD9291A11D0F700B71F96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				789FD92C1A11D0F700B71F96 /* AppDelegate.m */,
 				789FD92E1A11D0F700B71F96 /* ViewController.h */,
 				789FD92F1A11D0F700B71F96 /* ViewController.m */,
+				44AE59D71A11D442006A72EE /* CreatField.h */,
+				44AE59D81A11D442006A72EE /* CreatField.m */,
 				789FD94D1A11D14800B71F96 /* Liner.h */,
 				789FD94E1A11D14800B71F96 /* Liner.m */,
 				789FD9501A11D24800B71F96 /* Quadratic.h */,
@@ -231,6 +236,7 @@
 			files = (
 				789FD94F1A11D14800B71F96 /* Liner.m in Sources */,
 				789FD9301A11D0F700B71F96 /* ViewController.m in Sources */,
+				44AE59D91A11D442006A72EE /* CreatField.m in Sources */,
 				789FD92D1A11D0F700B71F96 /* AppDelegate.m in Sources */,
 				789FD9521A11D24800B71F96 /* Quadratic.m in Sources */,
 				789FD92A1A11D0F700B71F96 /* main.m in Sources */,
@@ -426,6 +432,7 @@
 				789FD9491A11D0F700B71F96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		789FD94A1A11D0F700B71F96 /* Build configuration list for PBXNativeTarget "DrawTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +441,7 @@
 				789FD94C1A11D0F700B71F96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

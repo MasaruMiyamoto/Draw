@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "draw.h"
+#import "CreatField.h"
+#import "Liner.h"
+#import "Quadratic.h"
+
 
 @interface ViewController ()
 
@@ -31,16 +34,20 @@
 }
 
 - (IBAction)button:(id)sender {
+    CreatField *field = [[CreatField alloc] init];
+    field.frame = CGRectMake(50, 50, 500, 500);
+    field.backgroundColor = [UIColor cyanColor];
+    [self.view addSubview:field];
     int x,y,e;
     x = (int)[self.textX.text integerValue];
     y = (int)[self.textY.text integerValue];
     e = (int)[self.textE.text integerValue];
     
-    draw *set = [[draw alloc]init];
-    [set setPoint:x :1];
-    [set setPoint:y :2];
-    [set setPoint:e :3];
-    [self.view addSubview:set];
+    Liner *line = [[Liner alloc]init];
+    [line setPoint:x :1];
+    [line setPoint:y :2];
+    [line setPoint:e :3];
+    
     //    NSLog(@"%d",x);
     //    NSLog(@"%d",y);
     //    NSLog(@"%d",e);

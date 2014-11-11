@@ -16,14 +16,11 @@
 
 #import <UIKit/UIKit.h>
 
-
-
 @interface Quadratic : UIView{
-    int a,b,c;
-    int A,B,C;
+    double a,b,c;
 }
 
--(void) setPoint:(int)value :(int)choose;
+-(void) setPoint:(double)value :(int)choose;
 
 @end
 
